@@ -108,6 +108,15 @@ describe("caesarCipher function works", () => {
 });
 
 describe("analyzeArray function works", () => {
+  test("should return object with required properties", () => {
+    expect(analyzeArray([1, 2, 3, 4, 5])).toEqual({
+      average: 3,
+      min: 1,
+      max: 5,
+      length: 5,
+    });
+  });
+
   describe("average property is correct", () => {
     test("average property should exist", () => {
       expect(analyzeArray([0])).toHaveProperty("average");
