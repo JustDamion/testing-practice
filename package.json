@@ -1,0 +1,30 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustDamion/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JustDamion/testing-practice/issues"
+  },
+  "homepage": "https://github.com/JustDamion/testing-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.7",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0",
+    "jest": "^30.5.1",
+    "prettier": "3.9.6"
+  }
+}
